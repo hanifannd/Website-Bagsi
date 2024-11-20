@@ -1,0 +1,30 @@
+.profile_image_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile_image {
+    width: 100%;
+    max-width: 300px; /* Ukuran gambar maksimal diperbesar */
+    height: auto;
+    border-radius: 0; /* Tidak ada border-radius untuk membuatnya kotak */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.profile_info {
+    padding: 20px;
+    text-align: left;
+}
+
+.profile_info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.profile_info p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}

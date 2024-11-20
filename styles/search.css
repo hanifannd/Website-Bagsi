@@ -1,0 +1,35 @@
+/* Style for the search container */
+.search_container {
+    margin-top: 20px;
+    padding: 20px 0;
+    /*background-color: #f8f9fa;*/
+    border-radius: 5px;
+}
+
+/* Style for the search input */
+.search_input {
+    border-radius: 0;
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* Style for the search button */
+.search_button {
+    background-color: #ff4a4a; /* Ganti warna biru dengan warna merah */
+    border: none;
+    color: white; /* Warna teks */
+    padding: 10px 20px; /* Sesuaikan ukuran tombol */
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Animasi transisi */
+}
+
+/* Hover effect untuk tombol */
+.search_button:hover {
+    background-color: #e03a3a; /* Warna saat tombol di-hover */
+}
+
+
+.search_button i {
+    margin-right: 5px;
+}
